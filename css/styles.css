@@ -1,0 +1,122 @@
+body {
+    font-family: 'Arsenal', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container-fluid{
+    width: 100%;
+    padding: 0;
+}
+
+.navcent {
+    text-align: center;
+}
+
+.navcent p, .dbut, .dropdown{
+    font-family: 'Gafata', sans-serif;
+    font-size: 1.2em;
+    color: #4ca391;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+#navtitle {
+    font-family: 'Gafata', sans-serif;
+    color: #db923b;
+    padding-top: 10px;
+}
+
+.navigation {
+    text-align: center;
+    width: 40%;
+    background-color: #ffffff;
+    opacity: 0.9;
+    left:0%;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #4ca391;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-left: 3px solid #db923b;
+}
+
+.dropdown-content a:hover {
+    background-color: #f9f9f9;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.parallax {
+    background-image: url("../images/elephants.jpg");
+    height: 100px; 
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url("../images/elephants.jpg");
+    height: 300px; 
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxouter {
+    background-image: url("../images/elephants.jpg");
+    height: 500px; 
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navy-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  opacity: 1;
+}
+
+.text {
+    width: 70%;
+}
+
+footer {
+    background-color: white;
+    color: #997aba;
+}
+/*#4ca391 green
+#9f7ddb purple*/
