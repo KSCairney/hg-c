@@ -120,3 +120,8 @@ footer {
 }
 /*#4ca391 green
 #9f7ddb purple*/
+
+#spacer {
+    height: 1000px;
+    width: auto;
+}
