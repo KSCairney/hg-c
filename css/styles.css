@@ -8,6 +8,11 @@ body {
 .container-fluid{
     width: 100%;
     padding: 0;
+    margin: auto;
+}
+
+.row{
+    margin: 0;
 }
 
 .navcent {
@@ -28,7 +33,8 @@ body {
 #navtitle {
     font-family: 'Gafata', sans-serif;
     color: #db923b;
-    padding-top: 10px;
+    padding-top: 30px;
+    font-size: 2em;
 }
 
 .navigation {
@@ -72,9 +78,24 @@ body {
     background-color: #3e8e41;
 }
 
+.pblock {
+    background-color: #997aba;
+    height: 10px;
+}
+
+.gblock {
+    background-color: #4ca391;
+    height: 10px;
+}
+
+.oblock {
+    background-color: #db923b;
+    height: 10px;
+}
+
 .parallax {
     background-image: url("../images/elephants.jpg");
-    height: 100px; 
+    height: 350px; 
     width: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -84,7 +105,7 @@ body {
 
 .parallax2 {
     background-image: url("../images/elephants.jpg");
-    height: 300px; 
+    height: 200px; 
     width: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -94,7 +115,7 @@ body {
 
 .parallaxouter {
     background-image: url("../images/elephants.jpg");
-    height: 300px; 
+    height: 400px; 
     width: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -102,7 +123,6 @@ body {
     background-size: cover;
     text-align: right;
     color: white;
-    font-size: 2em;
 }
 
 .navy-fixed {
@@ -118,19 +138,18 @@ body {
 }
 
 footer {
-    background-color: white;
+    background-color: #cfcfcf;
     color: #997aba;
 }
 /*#4ca391 green
 #9f7ddb purple*/
 
-#spacer {
-    height: 1000px;
+.spacer {
+    height: 150px;
     width: auto;
 }
 
-.fa-info-circle {
-    color: white;
-    font-size: 2em;
-    float: right;
+.fade {
+    background-color: white;
+    opacity: 0.7;
 }
