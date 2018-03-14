@@ -94,12 +94,15 @@ body {
 
 .parallaxouter {
     background-image: url("../images/elephants.jpg");
-    height: 500px; 
+    height: 300px; 
     width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: right;
+    color: white;
+    font-size: 2em;
 }
 
 .navy-fixed {
@@ -124,4 +127,10 @@ footer {
 #spacer {
     height: 1000px;
     width: auto;
+}
+
+.fa-info-circle {
+    color: white;
+    font-size: 2em;
+    float: right;
 }
