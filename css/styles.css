@@ -138,7 +138,7 @@ body {
 }
 
 footer {
-    background-color: #white;
+    background-color: white;
     color: #997aba;
 }
 /*#4ca391 green
@@ -152,4 +152,19 @@ footer {
 .fade {
     background-color: white;
     opacity: 0.7;
+}
+
+.lorem {
+    padding-top: 50px;
+}
+
+.face {
+    border-radius: 10% / 50%;
+    width: 100%;
+    height: auto;
+}
+
+.logos {
+    width: 100%;
+    height: auto;
 }
