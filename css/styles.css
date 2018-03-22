@@ -168,3 +168,19 @@ footer {
     width: 100%;
     height: auto;
 }
+
+.sublabel {
+    text-align: center;
+    color: #4ca391;
+    margin: auto;
+}
+
+.contactsect {
+    text-align: center;
+    margin: auto;
+    color: #4ca391;
+}
+
+form textarea {
+    width: 100%;
+}
