@@ -175,12 +175,6 @@ footer {
     margin: auto;
 }
 
-.contactsect {
-    text-align: center;
-    margin: auto;
-    color: #4ca391;
-}
-
-form textarea {
+form textarea{
     width: 100%;
 }
