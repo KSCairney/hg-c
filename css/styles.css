@@ -37,6 +37,14 @@ body {
     font-size: 2em;
 }
 
+.home:hover {
+    font-family: 'Gafata', sans-serif;
+    color: #db923b;
+    padding-top: 30px;
+    font-size: 2em;
+    text-decoration: none;
+}
+
 .navigation {
     text-align: center;
     width: 40%;
@@ -175,6 +183,7 @@ footer {
     margin: auto;
 }
 
-form textarea{
+.boxy {
     width: 100%;
+    padding: 5px 0px 5px 0px;
 }
