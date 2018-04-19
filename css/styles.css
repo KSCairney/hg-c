@@ -14,3 +14,57 @@ body {
     padding: 0;
     width: 100%;
 }
+
+.spacer {
+    height: 250px;
+}
+
+.lilspacer {
+    height: 100px;
+}
+
+@media (min-width: 412px) {
+    .spacer {
+        height: 350px;
+    }
+    
+    .lilspacer {
+        height: 150px;
+    }
+}
+
+.arrow {
+    text-align: center;
+    margin: auto;
+    font-size: 2em;
+}
+
+.arrow i {
+    color: white;
+}
+
+
+.parallax {
+    background-image: url(../images/backgroung-homepage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.logo {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.liner {
+    border: solid red 1px;
+}
+
+.equal {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
