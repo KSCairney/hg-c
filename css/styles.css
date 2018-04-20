@@ -72,3 +72,45 @@ body {
   display: -webkit-flex;
   flex-wrap: wrap;
 }
+
+.navy-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+
+#navy {
+	border: 0;
+	background-color: white;
+	border-radius: 0px;
+	margin-bottom: 0;
+    height: 30px;
+}
+
+.navy_items li:hover {
+    background-color: #ededed;
+}
+
+.navy_items {
+    margin: auto;
+    text-align: center;
+    padding-left: 0;
+}
+
+.navy_items li {
+    padding: 6px 10px 6px 10px;
+    display: inline-block;
+    color: #317d74;
+    font-size: 1.1em;
+}
+
+.navy_items li a {
+	color: #317d74;
+	text-decoration: none;
+}
+
+footer p {
+    font-size: 0.8em;
+    color: #ad6e4e;
+}
