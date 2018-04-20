@@ -59,6 +59,10 @@ body {
     text-align: center;
 }
 
+.ltext {
+    padding-top: 40px;
+}
+
 .liner {
     border: solid red 1px;
 }
