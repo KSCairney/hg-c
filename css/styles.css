@@ -16,20 +16,20 @@ body {
 }
 
 .spacer {
-    height: 250px;
+    height: 350px;
 }
 
 .lilspacer {
-    height: 100px;
+    height: 75px;
 }
 
 @media (min-width: 412px) {
     .spacer {
-        height: 350px;
+        height: 400px;
     }
     
     .lilspacer {
-        height: 150px;
+        height: 100px;
     }
 }
 
